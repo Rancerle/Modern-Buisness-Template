@@ -1,3 +1,37 @@
+body, html {
+    height: 100%;
+}
+
+.container.content{
+  background-color: rgba(255,255,255,0.7);
+}
+
+  .container.nav{
+    /* The image used */
+    background-image: url("reverse_sunset.jpg");
+
+    /* Full height */
+    width: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+  /* The image used */
+  background-image: url("wood.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
 
 .navbar.navbar-inverse.navbar-fixed-top{
   display:inline-block;

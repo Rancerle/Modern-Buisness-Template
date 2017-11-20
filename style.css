@@ -7,13 +7,35 @@ body, html {
 }
 
 .nav.navbar-nav.navbar-right li{
-  background-color: rgba(50,50,50,0.5);
+  background-color: rgba(112,173,71,0.5);
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: border-radius;
+  transition-property: border-radius;
+}
+
+.nav.navbar-nav.navbar-right li:hover{
+  /*background-color: rgba(50,50,50,0.5);*/
+  border-radius: 1em;
+}
+
+.nav.navbar-nav.navbar-right li a{
   color: #FFFFFF;
 }
 
 .container.content{
   background-color: rgba(50,50,50,0.7);
   color:#FFFFFF;
+}
+
+tbody tr:hover{
+  background-color: rgba(50,50,50,0.8);
+  color: rgba(50,50,50,0.8);
 }
 
 .panel-body, .col-md-8{
@@ -192,3 +214,27 @@ a.navbar-brand{
             .testimonial.testimonial-default-filled .testimonial-writer-name{
                 color: #777;
             }
+.fa.fa-facebook-square.fa-2x, .fa.fa-linkedin-square.fa-2x, .fa.fa-twitter-square.fa-2x, .fa.fa-google-plus-square.fa-2x{
+  color: rgba(112,173,71,1);
+}
+
+label, h3{
+  color: #ffffff;
+}
+
+.btn.btn-primary{
+  background-color: rgba(112,173,71,1);
+  border-color: rgba(112,173,71,1);
+}
+
+.col-md-8 img{
+  width: 100%;
+}
+
+p a{
+  color: rgba(112,173,71,1);
+}
+
+p a:hover, p a:active{
+  color: rgba(112,173,71,0.5);
+}

@@ -3,8 +3,12 @@ body, html {
 }
 
 .carousel.slide{
-  width: 93%;
   margin: auto;
+}
+
+.nav.navbar-nav.navbar-right li{
+  background-color: rgba(50,50,50,0.5);
+  color: #FFFFFF;
 }
 
 .container.content{

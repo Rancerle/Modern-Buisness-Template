@@ -274,13 +274,9 @@ p a:hover, p a:active{
   transition-timing-function: ease-out;
 }
 
-.nav.nav-tabs.nav-justified li a:hover{
+.nav.nav-tabs.nav-justified li a:hover, .nav.nav-tabs.nav-justified li a:focus, .nav.nav-tabs.nav-justified li a:active {
   background-color: rgba(112,173,71,1);
   color: #ffffff;
-}
-
-.nav.nav-tabs.nav-justified li a:hover, .nav.nav-tabs.nav-justified li a:focus, .nav.nav-tabs.nav-justified li a:active {
-  color: white;
 }
 .nav.nav-tabs.nav-justified li a:hover:before, .nav.nav-tabs.nav-justified li a:focus:before, .nav.nav-tabs.nav-justified li a:active:before {
   -webkit-transform: scaleX(1);
